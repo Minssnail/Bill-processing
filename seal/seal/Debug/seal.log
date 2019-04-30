@@ -1,0 +1,11 @@
+﻿  seal.cpp
+seal.obj : error LNK2019: 无法解析的外部符号 "private: void __thiscall cv::String::deallocate(void)" (?deallocate@String@cv@@AAEXXZ)，该符号在函数 "public: __thiscall cv::String::~String(void)" (??1String@cv@@QAE@XZ) 中被引用
+seal.obj : error LNK2019: 无法解析的外部符号 _cvCreateImage，该符号在函数 _main 中被引用
+seal.obj : error LNK2019: 无法解析的外部符号 _cvGetSize，该符号在函数 _main 中被引用
+seal.obj : error LNK2019: 无法解析的外部符号 _cvSplit，该符号在函数 _main 中被引用
+seal.obj : error LNK2019: 无法解析的外部符号 _cvCvtColor，该符号在函数 _main 中被引用
+seal.obj : error LNK2019: 无法解析的外部符号 _cvLoadImage，该符号在函数 _main 中被引用
+seal.obj : error LNK2019: 无法解析的外部符号 _cvNamedWindow，该符号在函数 _main 中被引用
+seal.obj : error LNK2019: 无法解析的外部符号 _cvShowImage，该符号在函数 _main 中被引用
+seal.obj : error LNK2019: 无法解析的外部符号 _cvWaitKey，该符号在函数 _main 中被引用
+E:\科研项目\3赛\1华为杯-智能设计\seal\Debug\seal.exe : fatal error LNK1120: 9 个无法解析的外部命令
