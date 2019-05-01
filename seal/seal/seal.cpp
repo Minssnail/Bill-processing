@@ -1,5 +1,5 @@
 /*
-¹¦ÄÜ£ºµÃµ½Ç©ÕÂ
+åŠŸèƒ½ï¼šå¾—åˆ°çº¢è‰²ç­¾ç« 
 */
 #include<opencv2\opencv.hpp>
 #include<iostream>
@@ -21,8 +21,8 @@ int main()
 		return -1;
 	}
 
-	// È«¾Ö¶şÖµ»¯
-	int th = 180; //ãĞÖµÒª¸ù¾İÊµ¼ÊÇé¿öµ÷Õû
+	// å…¨å±€äºŒå€¼åŒ–
+	int th = 180; //é˜ˆå€¼è¦æ ¹æ®å®é™…æƒ…å†µè°ƒæ•´
 	Mat binary;
 	threshold(gray, binary, th, 255, CV_THRESH_BINARY);
 
@@ -33,7 +33,7 @@ int main()
 	Mat blue = channels[0];
 	Mat green = channels[1];
 	
-	Mat red_binary;//·Ö¸îºìÉ«Í¨µÀ²¢¶şÖµ»¯µÄÍ¼Ïñ
+	Mat red_binary;//åˆ†å‰²çº¢è‰²é€šé“å¹¶äºŒå€¼åŒ–çš„å›¾åƒ
 	threshold(red, red_binary, th, 255, CV_THRESH_BINARY);
 
 
